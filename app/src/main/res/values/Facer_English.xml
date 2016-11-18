@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- the text we display on the button that initiates the comparison -->
+    <!-- Fuzzy -->
+    <string name="global_compare">"Compare"</string>
+
+    <!-- I wasn't sure whether I should actually put this in, but I can detect if the user has internet and whenever they turn it off, I can detect that aswell. In the first version, I gave the user a dialog that told them that they were not connected to the internet.
+
+    Might be cool to include here aswell, although a snackbar (this thing http://www.androidhive.info/wp-content/uploads/2015/09/android-snackbar-with-action-callback-undo.png) would be smarter -->
+    <!-- Fuzzy -->
+    <string name="global_noInternetConnection">"Seems like you're offline. This app requires an internet connection to function correctly!"</string>
+
+    <!-- When the user uploads a picture of something that aint no face, we tell him that we couldnt recognize a face on that one
+
+    this is for the first (upper) picture -->
+    <!-- Fuzzy -->
+    <string name="main_noFaceRecognized1">"Sorry, we couldn't recognize a face on the first picture!"</string>
+
+    <!-- When the user uploads a picture of something that aint no face, we tell him that we couldnt recognize a face on that one
+
+    this is for the second (lower) picture -->
+    <!-- Fuzzy -->
+    <string name="main_noFaceRecognized2">"Sorry, we couldn't recognize a face on the second picture!"</string>
+
+    <!-- If we got 2 faces, but the api fucks up and doesn't recognize a face, I told the user that "Something went wrong. Are you sure that was a face?"
+
+    needs wording, but is necessary, because the api isn't perfect -->
+    <!-- Fuzzy -->
+    <string name="global_apiError">"Something is off. We couldn't process your request."</string>
+
+    <string name="global_generalError">"Sorry, something went wrong."</string>
+
+    <!-- when the user wants to share his result to some social media platform (booker, birdman, what have you) there's a text up above the selection that's localizable
+
+    for reference, the text "share" in the following screenshot
+
+    http://www.androidcentral.com/sites/androidcentral.com/files/postimages/684/instagram-2_0.png -->
+    <!-- Fuzzy -->
+    <string name="global_shareImageUsing">"Share image using"</string>
+
+    <!-- when we're on the page where the user searches for a celeb, we should show him some sort of text in the searchbar
+
+    the light gray text here (there's a blinking cursor inside, so the user will understand that no trouble):
+
+    http://i.imgur.com/gSJVdmE.png -->
+    <!-- Fuzzy -->
+    <string name="search_hint">"Search for images..."</string>
+
+    <!-- While sharing the image to services like Twitter or IG, you can specifiy a pre-written message to that post. -->
+    <!-- Fuzzy -->
+    <string name="results_shareText">"Compare faces instantly with Facer."</string>
+
+    <!-- on the result page, we display one of two values. Depending on whether the face recognition api tells us that the two faces are a match, we either use results_samePerson or results_differentPerson -->
+    <!-- Fuzzy -->
+    <string name="results_samePerson">"It's the same person."</string>
+
+    <!-- on the result page, we display one of two values. Depending on whether the face recognition api tells us that the two faces are a match, we either use results_samePerson or results_differentPerson -->
+    <!-- Fuzzy -->
+    <string name="results_differentPerson">"It's not the same person."</string>
+    <string name="global_followingErrorsOccured">"An error occurred."</string>
+    <string name="global_understood">"OK"</string>
+
+    <!-- About... -->
+    <!-- Fuzzy -->
+    <string name="menu_about">"About Facer"</string>
+    <string name="main_takingLong">"This might take some time..."</string>
+
+    <!-- Fuzzy -->
+    <string name="menu_support">"Support"</string>
+    <string name="main_serverDown">"We're sorry, the face recognition service appears to be offline!"</string>
+
+    <!-- When the user wishes to contact us using the "support"-item in the menu (or rather the equivalent of that in either OS), we open an email-client where the user may write whatever. For that we should declare atleast a predefined subject for the mail -->
+    <!-- Fuzzy -->
+    <string name="mail_support_subject">"Facer Support Request"</string>
+    <string name="global_menu">"Menu"</string>
+    <string name="menu_message">"How can we help you?"</string>
+<string name="about_contentHtml">"&lt;p&gt;Use Facer to compare two images and see your results instantly. Compare yourself with a celebrity and take a look at how close you look alike. Use your mobile phone camera to take a picture and upload it straight to Facer or choose images from Google Images and start comparing. Share your results with your friends on social media. Have fun with Facer! :)&lt;/p&gt;
+
+&lt;p&gt;Support&lt;/br&gt;
+In case of questions, problems, bugs or new ideas developing Facer, we would be happy to hear from you. Please write to &lt;a href=\"mailto://facer@we-are-infinity.com\"&gt;facer@we-are-infinity.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Made by Infinity&lt;br/&gt;
+&lt;a href=\"www.we-are-infinity.com\"&gt;www.we-are-infinity.com&lt;/a&gt;&lt;/p&gt;"</string>
+    <string name="mail_error_title">"Could not open new e-mail"</string>
+    <string name="mail_error_description">"Your device cannot send e-mail.  Please check your e-mail configuration and try again."</string>
+    <string name="global_cancel">"Cancel"</string>
+    <string name="results_match0">"These two don't look similar at all. Try again!"</string>
+    <string name="results_match20">"Similarities are there, but could be stronger :)"</string>
+    <string name="results_match40">"Not bad, not bad. They look quite similar."</string>
+    <string name="results_match60">"Looks like we have a pretty good match here :)"</string>
+    <string name="results_match80">"Wow! They look like twins!"</string>
+    <string name="main_noFaceRecognizedAll">"Sorry, we couldn't recognize a face on either picture!"</string>
+</resources>

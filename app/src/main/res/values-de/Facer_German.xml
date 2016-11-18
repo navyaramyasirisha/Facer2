@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fuzzy -->
+    <string name="global_compare">"Vergleichen"</string>
+
+    <!-- Fuzzy -->
+    <string name="global_noInternetConnection">"Sieht so aus, als ob du offline wärst. Diese App benötigt Internetzugriff!"</string>
+
+    <!-- Fuzzy -->
+    <string name="main_noFaceRecognized1">"Wir konnten kein Gesicht auf dem ersten Bild erkennen, sorry!"</string>
+
+    <!-- Fuzzy -->
+    <string name="main_noFaceRecognized2">"Wir konnten kein Gesicht auf dem zweiten Bild erkennen, sorry!"</string>
+
+    <!-- Fuzzy -->
+    <string name="global_apiError">"Etwas ist schiefgelaufen. Wir konnten deine Anfrage leider nicht bearbeiten."</string>
+
+    <string name="global_generalError">"Sorry, etwas ist schiefgelaufen."</string>
+
+    <!-- Fuzzy -->
+    <string name="global_shareImageUsing">"Teilen mit"</string>
+
+    <!-- Fuzzy -->
+    <string name="search_hint">"Suchen.."</string>
+
+    <!-- Fuzzy -->
+    <string name="results_shareText">"Vergleiche Bilder mit Facer."</string>
+    <string name="results_samePerson">"Das ist die gleiche Person."</string>
+    <string name="results_differentPerson">"Das ist nicht die gleiche Person."</string>
+    <string name="global_followingErrorsOccured">"Ein Fehler ist aufgetreten."</string>
+    <string name="global_understood">"OK"</string>
+
+    <!-- About... -->
+    <!-- Fuzzy -->
+    <string name="menu_about">"Über Facer"</string>
+    <string name="main_takingLong">"Das kann etwas dauern..."</string>
+
+    <!-- Fuzzy -->
+    <string name="menu_support">"Hilfe"</string>
+    <string name="main_serverDown">"Sorry, der Gesichtserkennungsdienst scheint offline zu sein!"</string>
+
+    <!-- Fuzzy -->
+    <string name="mail_support_subject">"Facer Support Anfrage"</string>
+    <string name="global_menu">"Menü"</string>
+    <string name="menu_message">"Wie können wir helfen?"</string>
+<string name="about_contentHtml">"&lt;p&gt;Nutze Facer um zwei Gesichter zu vergleichen. Vergleiche dich und einen Star und Facer zeigt dir, wie ähnlich ihr euch seid. Nimm dazu ein neues Foto auf, wähle eines von deinem Handy oder lade ein Foto vom Web. Teile deine Resultate mit deinen Freunden auf deinen sozialen Netzwerken. Viel Spaß mit Facer! :)&lt;/p&gt;
+
+&lt;p&gt;Support&lt;/br&gt;
+Bei Fragen, Problemen, Bugs oder neuen Ideen Facer weiterzuentwickeln, würden wir uns sehr freuen von dir zu hören. Schreibe uns per E-Mail an &lt;a href=\"mailto://facer@we-are-infinity.com\"&gt;facer@we-are-infinity.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Made by Infinity&lt;br/&gt;
+&lt;a href=\"http://www.we-are-infinity.com\"&gt;www.we-are-infinity.com&lt;/a&gt;&lt;/p&gt;"</string>
+    <string name="mail_error_title">"E-mail öffnen fehlgeschlagen"</string>
+    <string name="mail_error_description">"Dein Gerät kann zur Zeit keine e-mails versenden. Bitte überprüfe deine e-mail-Konfiguration und versuche es nochmals."</string>
+    <string name="global_cancel">"Abbrechen"</string>
+    <string name="results_match0">"Die beiden sehen einander gar nicht ähnlich. Versuchs mit anderen!"</string>
+    <string name="results_match20">"Ähnlichkeiten sind da, aber könnten stärker sein :)"</string>
+    <string name="results_match40">"Nicht schlecht. Die beiden sehen einander ähnlich!"</string>
+    <string name="results_match60">"Schaut so aus als hätten wir einen guten Match hier :)"</string>
+    <string name="results_match80">"Wow! Das sind ja Zwillinge!"</string>
+    <string name="main_noFaceRecognizedAll">"Wir konnten auf beiden Bildern kein Gesicht erkennen, sorry!"</string>
+</resources>

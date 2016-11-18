@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+apply plugin: 'poeditor'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "com.we_are_infinity.facer"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+poeditor {
+    apikey 'd5f855797a5caedf549fe85d327a672d'
+    projectId '68461'
+    type 'android_strings'
+
+    trans 'en', 'app/src/main/res/values/Facer_English.xml'
+    trans 'de', 'app/src/main/res/values-de/Facer_German.xml'
+
+    filters 'en', 'translated'
+    filters 'de', 'translated'
+}
+
+
+def supportLibVersion = '25.0.1'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+
+    //supportLib
+    compile "com.android.support:support-v4:$supportLibVersion"
+    compile "com.android.support:design:$supportLibVersion"
+    compile "com.android.support:appcompat-v7:$supportLibVersion"
+
+    //butterknife
+    compile 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+
+    //retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+
+    //rxjava
+    compile 'io.reactivex:rxjava:1.1.5'
+    compile 'io.reactivex:rxandroid:1.2.1'
+
+    //okhttp
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+
+    //otto
+    compile 'com.squareup:otto:1.3.8'
+
+    //gota
+    compile 'net.alhazmy13.Gota:libary:1.3.0'
+}
